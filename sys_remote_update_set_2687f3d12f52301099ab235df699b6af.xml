@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-08-30 11:07:07">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>React Example</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>06d3bca92f50301099ab235df699b6bc</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>2687f3d12f52301099ab235df699b6af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_f14baf1bdb032300fcf7712ebf96198b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;like_button&lt;/name&gt;&lt;script&gt;&lt;![CDATA['use strict';
+
+const e = React.createElement;
+
+class LikeButton extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: false };
+  }
+
+  render() {
+    if (this.state.liked) {
+      return 'You liked this.';
+    }
+
+    return e(
+      'button',
+      { onClick: () =&gt; this.setState({ liked: true }) },
+      'Like'
+    );
+  }
+}
+
+const domContainer = document.querySelector('#like_button_container');
+ReactDOM.render(e(LikeButton), domContainer);]]&gt;&lt;/script&gt;&lt;script_name/&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-01-22 17:13:16&lt;/sys_created_on&gt;&lt;sys_id&gt;f14baf1bdb032300fcf7712ebf96198b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;like_button&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_f14baf1bdb032300fcf7712ebf96198b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-01-22 17:16:14&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1761975358</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>2287f3d12f52301099ab235df699b6b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af074c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>like_button</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_guid>591ce75bda0323008a07d772b6f71b65</update_guid>
+<update_guid_history>591ce75bda0323008a07d772b6f71b65:1761975358,e58b635b06032300fb51e82dbb4e3b20:1420119780,796baf1b260323009a0d4b74c9673154:-1433838515</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_50535c23db832300fcf7712ebf9619bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>react_test</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:07:39</sys_created_on><sys_id>50535c23db832300fcf7712ebf9619bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>react_test</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_page_50535c23db832300fcf7712ebf9619bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:07:39</sys_updated_on><title>React Test - Test Page</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=50535c23db832300fcf7712ebf9619bc"/></record_update>]]></payload>
+<payload_hash>185034393</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>2687f3d12f52301099ab235df699b6b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af078f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>react_test</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>d8535c23f08323006a692fcb67d8f4bd</update_guid>
+<update_guid_history>d8535c23f08323006a692fcb67d8f4bd:185034393</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_js_include_27e21cefdb432300fcf7712ebf961903</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_js_include"><m2m_sp_theme_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_js_include display_value="https://unpkg.com/react@16/umd/react.development.js">62b25423db832300fcf7712ebf9619cd</sp_js_include><sp_theme display_value="Stock">79315153cb33310000f8d856634c9c4b</sp_theme><sys_class_name>m2m_sp_theme_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:05:58</sys_created_on><sys_id>27e21cefdb432300fcf7712ebf961903</sys_id><sys_mod_count>1</sys_mod_count><sys_name>https://unpkg.com/react@16/umd/react.development.js.Stock</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_js_include_27e21cefdb432300fcf7712ebf961903</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:06:26</sys_updated_on></m2m_sp_theme_js_include></record_update>]]></payload>
+<payload_hash>-1956735950</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>2a87f3d12f52301099ab235df699b6af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af07790000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>https://unpkg.com/react@16/umd/react.development.js.Stock</target_name>
+<type>JS Includes</type>
+<update_domain>global</update_domain>
+<update_guid>5a03d0a7df432300cd943d9cdd019fe0</update_guid>
+<update_guid_history>5a03d0a7df432300cd943d9cdd019fe0:-1956735950,2fe21cef9d432300d64545754dddd304:1844639801</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_d4535c23db832300fcf7712ebf9619be</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>React Test - Test Page - Container 1</name><order>1</order><sp_page display_value="react_test">50535c23db832300fcf7712ebf9619bc</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:07:39</sys_created_on><sys_id>d4535c23db832300fcf7712ebf9619be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>React Test - Test Page - Container 1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_d4535c23db832300fcf7712ebf9619be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:07:39</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>-1017469582</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>2a87f3d12f52301099ab235df699b6b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af07990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>React Test - Test Page - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>98535c239783230064ba516ff1132bbf</update_guid>
+<update_guid_history>98535c239783230064ba516ff1132bbf:-1017469582</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_js_include_d0f2d0a7db432300fcf7712ebf9619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>https://unpkg.com/react-dom@16/umd/react-dom.development.js</display_name><source>url</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:06:18</sys_created_on><sys_id>d0f2d0a7db432300fcf7712ebf9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>https://unpkg.com/react-dom@16/umd/react-dom.development.js</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_script/><sys_update_name>sp_js_include_d0f2d0a7db432300fcf7712ebf9619dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:06:18</sys_updated_on><url>https://unpkg.com/react-dom@16/umd/react-dom.development.js</url></sp_js_include></record_update>]]></payload>
+<payload_hash>-1437297675</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>6287f3d12f52301099ab235df699b6b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af07690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>https://unpkg.com/react-dom@16/umd/react-dom.development.js</target_name>
+<type>JS Include</type>
+<update_domain>global</update_domain>
+<update_guid>e003d423e583230002e5e670c37f5ddb</update_guid>
+<update_guid_history>e003d423e583230002e5e670c37f5ddb:-1437297675</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_14535c23db832300fcf7712ebf9619c2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size/><size_lg/><size_sm/><size_xs/><sp_row display_value="1">94535c23db832300fcf7712ebf9619c0</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:07:39</sys_created_on><sys_id>14535c23db832300fcf7712ebf9619c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_14535c23db832300fcf7712ebf9619c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:07:39</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1763686072</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>6687f3d12f52301099ab235df699b6b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af07b80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>94535c2315832300cead0e53b38f5dc3</update_guid>
+<update_guid_history>94535c2315832300cead0e53b38f5dc3:-1763686072</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_processor_b8f6a797db032300fcf7712ebf9619b1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_processor"&gt;&lt;sys_processor action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;description/&gt;&lt;interactive&gt;false&lt;/interactive&gt;&lt;name&gt;React Example&lt;/name&gt;&lt;parameters/&gt;&lt;params_endpoint/&gt;&lt;path&gt;react&lt;/path&gt;&lt;path_endpoint/&gt;&lt;require_csrf&gt;false&lt;/require_csrf&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function process(g_request, g_response, g_processor) {
+	
+	var returnMessage = '&lt;html&gt;';
+	returnMessage += '&lt;head&gt;';
+	returnMessage += '&lt;/head&gt;';
+	returnMessage += '&lt;body&gt;';
+	returnMessage += '&lt;div id="like_button_container"&gt;&lt;/div&gt;';
+	returnMessage += '&lt;script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin&gt;&lt;/script&gt;&lt;script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin&gt;&lt;/script&gt;';
+	returnMessage += '&lt;script src="like_button.jsdbx"&gt;&lt;/script&gt;';
+	returnMessage += '&lt;/body&gt;';
+	returnMessage += '&lt;/html&gt;';
+	
+	g_response.setHeader("Content-Type", "text/html");
+	g_processor.writeOutput(returnMessage);
+	
+
+})(g_request, g_response, g_processor);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_processor&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-01-22 16:58:40&lt;/sys_created_on&gt;&lt;sys_id&gt;b8f6a797db032300fcf7712ebf9619b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;React Example&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_processor_b8f6a797db032300fcf7712ebf9619b1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-01-22 17:15:06&lt;/sys_updated_on&gt;&lt;type&gt;script&lt;/type&gt;&lt;/sys_processor&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1639376708</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>6e87f3d12f52301099ab235df699b6b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af070d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>React Example</target_name>
+<type>Processor</type>
+<update_domain>global</update_domain>
+<update_guid>24dbe35b08032300677ab339a079f9f9</update_guid>
+<update_guid_history>24dbe35b08032300677ab339a079f9f9:-1639376708,163bef5364032300583d94e40a31821e:-60659574,4418ab57460323001e94a1a3e3aa19e6:658476748</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_js_include_ac03d423db832300fcf7712ebf9619db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_js_include"><m2m_sp_theme_js_include action="INSERT_OR_UPDATE"><order>200</order><sp_js_include display_value="https://unpkg.com/react-dom@16/umd/react-dom.development.js">d0f2d0a7db432300fcf7712ebf9619dc</sp_js_include><sp_theme display_value="Stock">79315153cb33310000f8d856634c9c4b</sp_theme><sys_class_name>m2m_sp_theme_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:06:18</sys_created_on><sys_id>ac03d423db832300fcf7712ebf9619db</sys_id><sys_mod_count>1</sys_mod_count><sys_name>https://unpkg.com/react-dom@16/umd/react-dom.development.js.Stock</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_js_include_ac03d423db832300fcf7712ebf9619db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:06:30</sys_updated_on></m2m_sp_theme_js_include></record_update>]]></payload>
+<payload_hash>-1482464799</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>a287f3d12f52301099ab235df699b6b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af07860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>https://unpkg.com/react-dom@16/umd/react-dom.development.js.Stock</target_name>
+<type>JS Includes</type>
+<update_domain>global</update_domain>
+<update_guid>ab0318af974323002e8dc18d45b5a1fa</update_guid>
+<update_guid_history>ab0318af974323002e8dc18d45b5a1fa:-1482464799,2003d4235c8323001143dc1be3236bdd:2052508873</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_905318afdb432300fcf7712ebf9619ff</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function() {
+  /* widget controller */
+	
+	var c = this;
+	
+	c.title = "To do app";
+	
+  class TodoApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { items: [], text: '' };
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  render() {
+    return React.createElement(
+      "div",
+      null,
+      React.createElement(
+        "h3",
+        null,
+        c.title
+      ),
+      React.createElement(TodoList, { items: this.state.items }),
+      React.createElement(
+        "form",
+        { onSubmit: this.handleSubmit },
+        React.createElement(
+          "label",
+          { htmlFor: "new-todo" },
+          "What needs to be done?"
+        ),
+        React.createElement("input", {
+          id: "new-todo",
+          onChange: this.handleChange,
+          value: this.state.text
+        }),
+        React.createElement(
+          "button",
+          null,
+          "Add #",
+          this.state.items.length + 1
+        )
+      )
+    );
+  }
+
+  handleChange(e) {
+    this.setState({ text: e.target.value });
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    if (!this.state.text.length) {
+      return;
+    }
+    const newItem = {
+      text: this.state.text,
+      id: Date.now()
+    };
+    this.setState(state =&gt; ({
+      items: state.items.concat(newItem),
+      text: ''
+    }));
+  }
+}
+
+class TodoList extends React.Component {
+  render() {
+    return React.createElement(
+      "ul",
+      null,
+      this.props.items.map(item =&gt; React.createElement(
+        "li",
+        { key: item.id },
+        item.text
+      ))
+    );
+  }
+}
+
+ReactDOM.render(React.createElement(TodoApp, null), document.getElementById('todos-example'));
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;label {
+	display: block; 
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;react_test&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;React Test&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-01-22 20:07:39&lt;/sys_created_on&gt;&lt;sys_id&gt;905318afdb432300fcf7712ebf9619ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;React Test&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_905318afdb432300fcf7712ebf9619ff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-01-22 20:48:00&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;div id="todos-example"/&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-698050860</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>aa87f3d12f52301099ab235df699b6b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af07da0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>React Test</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>db8cd423b58323009bba9f075c297aca</update_guid>
+<update_guid_history>db8cd423b58323009bba9f075c297aca:-698050860,764590a33083230068640c66198a183d:-816180964,ae839063f88323004e6d05fed12f527d:-612070512,14535c23ae832300c3a2e34fd3aa57bb:1039313728</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_js_include_62b25423db832300fcf7712ebf9619cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>https://unpkg.com/react@16/umd/react.development.js</display_name><source>url</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:05:57</sys_created_on><sys_id>62b25423db832300fcf7712ebf9619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>https://unpkg.com/react@16/umd/react.development.js</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_script/><sys_update_name>sp_js_include_62b25423db832300fcf7712ebf9619cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:05:57</sys_updated_on><url>https://unpkg.com/react@16/umd/react.development.js</url></sp_js_include></record_update>]]></payload>
+<payload_hash>-29707051</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>ae87f3d12f52301099ab235df699b6b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af075a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>https://unpkg.com/react@16/umd/react.development.js</target_name>
+<type>JS Include</type>
+<update_domain>global</update_domain>
+<update_guid>e7e21cefe0432300b7a7140c73e8de02</update_guid>
+<update_guid_history>e7e21cefe0432300b7a7140c73e8de02:-29707051</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_94535c23db832300fcf7712ebf9619c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="React Test - Test Page - Container 1">d4535c23db832300fcf7712ebf9619be</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:07:39</sys_created_on><sys_id>94535c23db832300fcf7712ebf9619c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_94535c23db832300fcf7712ebf9619c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:07:39</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>1571127706</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>e687f3d12f52301099ab235df699b6b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af07a90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>18535c23a8832300b49db08fa3fb9dc1</update_guid>
+<update_guid_history>18535c23a8832300b49db08fa3fb9dc1:1571127706</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_90535c23db832300fcf7712ebf9619c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">14535c23db832300fcf7712ebf9619c2</sp_column><sp_widget display_value="React Test">905318afdb432300fcf7712ebf9619ff</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-22 20:07:40</sys_created_on><sys_id>90535c23db832300fcf7712ebf9619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_90535c23db832300fcf7712ebf9619c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-22 20:07:40</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=90535c23db832300fcf7712ebf9619c4"/></record_update>]]></payload>
+<payload_hash>-480060392</payload_hash>
+<remote_update_set display_value="React Example">2687f3d12f52301099ab235df699b6af</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:07</sys_created_on>
+<sys_id>ea87f3d12f52301099ab235df699b6b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17997af07c90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:07</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>58535c23338323001ef40cd6e13980c5</update_guid>
+<update_guid_history>58535c23338323001ef40cd6e13980c5:-480060392</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

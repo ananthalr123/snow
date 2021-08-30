@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-08-30 11:07:12">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Star Wars User Themes</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>59b8fddc2f37201099ab235df699b6a8</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:12</sys_created_on>
+<sys_id>7b87f39d2f12301099ab235df699b6da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:12</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_theme_47399dcbdb524414ff42d540cf961984</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_theme"><sys_ui_theme action="INSERT_OR_UPDATE"><active>true</active><base_theme display_value="Cobalt">6f3c9ae153002300dda1ddeeff7b124a</base_theme><css># Theme Accents&#13;
+$color-text: #1A1114&#13;
+&#13;
+$color-accent: #B64517&#13;
+$color-accent-light: #E7531A&#13;
+$color-accent-lighter: #D90008&#13;
+$color-accent-lightest: #FC9134&#13;
+&#13;
+# Header Colors&#13;
+$search-text-color: #E6E2DF&#13;
+$navpage-header-search-bg-color: #28191A&#13;
+$navpage-header-bg: #1A1114&#13;
+$navpage-header-color: #B64517&#13;
+$navpage-header-button-color: #E6E2DF&#13;
+$navpage-header-divider-color: #911914&#13;
+&#13;
+# Left nav and navigation toolbar background color&#13;
+$nav-highlight-main: #E1C767&#13;
+$subnav-background-color: #911914&#13;
+$navpage-nav-bg: #28191A&#13;
+$navpage-nav-bg-sub: #5A2A30&#13;
+$navpage-nav-color-sub: #E1C767&#13;
+$nav-hr-color: #881915&#13;
+&#13;
+# Navigator tabs&#13;
+$nav-highlight-bar-active: #E7531A&#13;
+$nav-highlight-bar-inactive: #B64517&#13;
+$navpage-nav-selected-bg: #E7531A&#13;
+$navpage-nav-selected-color: #28191A&#13;
+$navpage-nav-unselected-color: #B64517&#13;
+&#13;
+# Navigator Application text&#13;
+$connect-latest-message: #FC9134&#13;
+$navpage-nav-app-text: #CCB361&#13;
+$navpage-nav-app-text-hover: #28191A&#13;
+&#13;
+$navpage-nav-border: #A00F19&#13;
+$navpage-button-color: #E6E2DF&#13;
+$navpage-button-color-hover: #A00F19&#13;
+&#13;
+$color-primary: #B64517&#13;
+$color-positive: #449C2B&#13;
+$color-info: #508DD7&#13;
+$color-warning: #DE982E&#13;
+$color-negative: #A00F19&#13;
+&#13;
+$color-positive-light: #CFD278&#13;
+$color-positive-dark: #91941D&#13;
+$color-info-light: #ABD6EE&#13;
+$color-info-dark: #0C5AA9&#13;
+$color-warning-light: #CCB361&#13;
+$color-warning-dark: #756013&#13;
+$color-negative-light: #BC787E&#13;
+$color-negative-dark: #710F17&#13;
+&#13;
+$color-primary-text: #FCFEFF;&#13;
+$color-positive-text: ${$color-positive-dark}&#13;
+$color-info-text: ${$color-info-dark}&#13;
+$color-warning-text: ${$color-warning-dark}&#13;
+$color-negative-text: #FCFEFF&#13;
+&#13;
+$btn-positive-bg-color: ${$color-positive-light}&#13;
+$btn-positive-bg-color-hover: ${$color-positive}&#13;
+$btn-positive-text: ${$color-positive-dark}&#13;
+$btn-positive-text-hover: ${$color-positive-dark}&#13;
+$btn-info-bg-color: ${$color-info-light}&#13;
+$btn-info-bg-color-hover: ${$color-info}&#13;
+$btn-info-text: ${$color-info-dark}&#13;
+$btn-info-text-hover: ${$color-info-dark}&#13;
+$btn-negative-bg-color: ${$color-negative-light}&#13;
+$btn-negative-bg-color-hover: ${$color-negative}&#13;
+$btn-negative-text: ${$color-negative-dark}&#13;
+$btn-negative-text-hover: ${$color-negative-dark}&#13;
+$btn-warning-bg-color: ${$color-warning-light}&#13;
+$btn-warning-bg-color-hover: ${$color-warning}&#13;
+$btn-warning-text: ${$color-warning-dark}&#13;
+$btn-warning-text-hover: ${$color-warning-dark}&#13;
+&#13;
+$state-success-text: ${g_darken($color-positive, 25%)}&#13;
+$state-success-bg: ${g_lighten($color-positive-light, 8%)}&#13;
+$state-success-border: ${g_lighten($color-positive, 30%)}&#13;
+$state-info-text: ${g_darken($color-info, 25%)}&#13;
+$state-info-bg: ${g_lighten($color-info-light, 8%)}&#13;
+$state-info-border: ${g_lighten($color-info, 30%)}&#13;
+$state-warning-text: ${g_darken($color-warning, 25%)}&#13;
+$state-warning-bg: ${g_lighten($color-warning-light, 10%)}&#13;
+$state-warning-border: ${g_lighten($color-warning, 30%)}&#13;
+$state-danger-text: ${g_darken($color-negative, 25%)}&#13;
+$state-danger-bg: ${g_lighten($color-negative-light, 8%)}&#13;
+$state-danger-border: ${g_lighten($color-negative, 30%)}&#13;
+&#13;
+$color-darkest: #140B0E &#13;
+$color-darker: #710F17&#13;
+$color-dark: #414141&#13;
+$color-light: #BAA799&#13;
+$color-lighter: #A1A9AF&#13;
+$color-lightest: #FCFEFF&#13;
+&#13;
+$color-black: #140B0E&#13;
+$color-gray: #74686C&#13;
+$color-white: #FCFEFF&#13;
+&#13;
+$color-purple: #9B4C8F&#13;
+$color-purple-light: #B56CAA&#13;
+$color-purple-lighter: #CE90C5&#13;
+&#13;
+$color-blue: #0C5AA9&#13;
+$color-blue-light: #508DD7&#13;
+$color-blue-lighter: #ABD6EE&#13;
+&#13;
+$color-aqua: #2D8BCE&#13;
+$color-aqua-light: #459DD8&#13;
+$color-aqua-lighter: #60B0E5&#13;
+&#13;
+$color-cyan: #27B598&#13;
+$color-cyan-light: #42E29A&#13;
+$color-cyan-lighter: #42E29A&#13;
+&#13;
+$color-green-dark: #1E5321&#13;
+$color-green: #459C2C&#13;
+$color-green-light: #6AA95F&#13;
+$color-green-lighter: #D3F7A8&#13;
+&#13;
+$color-yellow: #F9D406&#13;
+$color-yellow-light: #E1C767&#13;
+$color-yellow-lighter: #CCB361&#13;
+&#13;
+$color-orange: #E7531A&#13;
+$color-orange-light: #FC9234&#13;
+$color-orange-lighter: #DE982E&#13;
+&#13;
+$color-red: #A00F19&#13;
+$color-red-light: #B53640&#13;
+$color-red-lighter: #CC666E&#13;
+&#13;
+$color-pink: #F95070&#13;
+$color-pink-light: #FA8DA2&#13;
+$color-pink-lighter: #FECAD6&#13;
+&#13;
+$color-shamrock: #91941C&#13;
+$color-shamrock-light: #CFD278&#13;
+$color-shamrock-lighter: #D3F7A8</css><device>concourse</device><name>Star Wars (Sith)</name><sys_class_name>sys_ui_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-16 21:32:00</sys_created_on><sys_id>47399dcbdb524414ff42d540cf961984</sys_id><sys_mod_count>13</sys_mod_count><sys_name>Star Wars (Sith)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_theme_47399dcbdb524414ff42d540cf961984</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-17 16:14:09</sys_updated_on></sys_ui_theme></record_update>]]></payload>
+<payload_hash>-1525961135</payload_hash>
+<remote_update_set display_value="Star Wars User Themes">7b87f39d2f12301099ab235df699b6da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:12</sys_created_on>
+<sys_id>3f87f39d2f12301099ab235df699b6da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17904c27c900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:12</sys_updated_on>
+<table/>
+<target_name>Star Wars (Sith)</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>8a3a1d57d3928414643e7d43ff119dac</update_guid>
+<update_guid_history>8a3a1d57d3928414643e7d43ff119dac:-1525961135,75b5dd137b928414a2f956e1742f62f3:-904525848,81751513da92841427be6d3273a74540:9167664,cc05d113c7928414efce5bcacf775452:732115780,3b5f4d17ec5284148fad99039152f306:789199067,c7bcc9d729528414abe0b5913e19b82f:-736753661,f3fb8d973f52841407e22c9da0cceeb4:1190362071,9f8b4d5741128414c7a0efead96ca87c:-2010000447,76d94157fe128414be368b708ea4585b:-1133900150,de17491792de441473650206272ad2ec:814698355,70c6c15750128414fbca3f0601f43c7f:826365107,970c154f16524414a1deb7460a95220c:202248710,f87915cb65524414c45ce33da2f77cd0:-546661102,0c69ddcbea524414191fd401be7f94fa:2071400308</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_theme_fe11cd8fdbde0414ff42d540cf961916</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_theme"><sys_ui_theme action="INSERT_OR_UPDATE"><active>true</active><base_theme display_value="Cobalt">6f3c9ae153002300dda1ddeeff7b124a</base_theme><css># Theme Accents&#13;
+$color-text: #140B0E&#13;
+&#13;
+$color-accent: #106381&#13;
+$color-accent-light: #1D8084&#13;
+$color-accent-lighter: #2DC4EA&#13;
+$color-accent-lightest: #ABD6EE&#13;
+&#13;
+# Header Colors&#13;
+$search-text-color: #FCFEFF&#13;
+$navpage-header-search-bg-color: #2D2D2D&#13;
+$navpage-header-bg: #0D0D0D&#13;
+$navpage-header-color: #1FA6AD&#13;
+$navpage-header-button-color: #FCFEFF&#13;
+$navpage-header-divider-color: #F9D406&#13;
+&#13;
+# Left nav and navigation toolbar background color&#13;
+$nav-highlight-main: #B89F14&#13;
+$subnav-background-color: #2D2D2D&#13;
+$navpage-nav-bg: #0D0D0D&#13;
+$navpage-nav-bg-sub: #0D0D0D&#13;
+$navpage-nav-color-sub: #1FA6AD&#13;
+$nav-hr-color: #0D0D0D&#13;
+&#13;
+# Navigator tabs&#13;
+$nav-highlight-bar-active: #F9D406 &#13;
+$nav-highlight-bar-inactive: #B89F14&#13;
+$navpage-nav-selected-bg: #F9D406&#13;
+$navpage-nav-selected-color: #0D0D0D&#13;
+$navpage-nav-unselected-color: #0DE7F2&#13;
+&#13;
+# Navigator Application text&#13;
+$connect-latest-message: #1FA6AD &#13;
+$navpage-nav-app-text: #0DE7F2&#13;
+$navpage-nav-app-text-hover: #FCFEFF&#13;
+&#13;
+$navpage-nav-border: #0DE7F2&#13;
+$navpage-button-color: #0DE7F2 &#13;
+$navpage-button-color-hover: #0DE7F2&#13;
+&#13;
+$color-primary: #27B598&#13;
+$color-positive: #449C2B&#13;
+$color-info: #508DD7&#13;
+$color-warning: #DE982E&#13;
+$color-negative: #A00F19&#13;
+&#13;
+$color-positive-light: #CFD278&#13;
+$color-positive-dark: #91941D&#13;
+$color-info-light: #ABD6EE&#13;
+$color-info-dark: #0C5AA9&#13;
+$color-warning-light: #CCB361&#13;
+$color-warning-dark: #756013&#13;
+$color-negative-light: #BC787E&#13;
+$color-negative-dark: #710F17&#13;
+&#13;
+$color-primary-text: #FCFEFF;&#13;
+$color-positive-text: ${$color-positive-dark}&#13;
+$color-info-text: ${$color-info-dark}&#13;
+$color-warning-text: ${$color-warning-dark}&#13;
+$color-negative-text: #FCFEFF&#13;
+&#13;
+$btn-positive-bg-color: ${$color-positive-light}&#13;
+$btn-positive-bg-color-hover: ${$color-positive}&#13;
+$btn-positive-text: ${$color-positive-dark}&#13;
+$btn-positive-text-hover: ${$color-positive-dark}&#13;
+$btn-info-bg-color: ${$color-info-light}&#13;
+$btn-info-bg-color-hover: ${$color-info}&#13;
+$btn-info-text: ${$color-info-dark}&#13;
+$btn-info-text-hover: ${$color-info-dark}&#13;
+$btn-negative-bg-color: ${$color-negative-light}&#13;
+$btn-negative-bg-color-hover: ${$color-negative}&#13;
+$btn-negative-text: ${$color-negative-dark}&#13;
+$btn-negative-text-hover: ${$color-negative-dark}&#13;
+$btn-warning-bg-color: ${$color-warning-light}&#13;
+$btn-warning-bg-color-hover: ${$color-warning}&#13;
+$btn-warning-text: ${$color-warning-dark}&#13;
+$btn-warning-text-hover: ${$color-warning-dark}&#13;
+&#13;
+$state-success-text: ${g_darken($color-positive, 25%)}&#13;
+$state-success-bg: ${g_lighten($color-positive-light, 8%)}&#13;
+$state-success-border: ${g_lighten($color-positive, 30%)}&#13;
+$state-info-text: ${g_darken($color-info, 25%)}&#13;
+$state-info-bg: ${g_lighten($color-info-light, 8%)}&#13;
+$state-info-border: ${g_lighten($color-info, 30%)}&#13;
+$state-warning-text: ${g_darken($color-warning, 25%)}&#13;
+$state-warning-bg: ${g_lighten($color-warning-light, 10%)}&#13;
+$state-warning-border: ${g_lighten($color-warning, 30%)}&#13;
+$state-danger-text: ${g_darken($color-negative, 25%)}&#13;
+$state-danger-bg: ${g_lighten($color-negative-light, 8%)}&#13;
+$state-danger-border: ${g_lighten($color-negative, 30%)}&#13;
+&#13;
+$color-darkest: #140B0E &#13;
+$color-darker: #72787D&#13;
+$color-dark: #414141&#13;
+$color-light: #A0B0B9&#13;
+$color-lighter: #DDDCE3&#13;
+$color-lightest: #FCFEFF&#13;
+&#13;
+$color-black: #140B0E&#13;
+$color-gray: #74686C&#13;
+$color-white: #FCFEFF&#13;
+&#13;
+$color-purple: #9B4C8F&#13;
+$color-purple-light: #B56CAA&#13;
+$color-purple-lighter: #CE90C5&#13;
+&#13;
+$color-blue: #0C5AA9&#13;
+$color-blue-light: #508DD7&#13;
+$color-blue-lighter: #ABD6EE&#13;
+&#13;
+$color-aqua: #2D8BCE&#13;
+$color-aqua-light: #459DD8&#13;
+$color-aqua-lighter: #60B0E5&#13;
+&#13;
+$color-cyan: #27B598&#13;
+$color-cyan-light: #42E29A&#13;
+$color-cyan-lighter: #42E29A&#13;
+&#13;
+$color-green-dark: #1E5321&#13;
+$color-green: #459C2C&#13;
+$color-green-light: #6AA95F&#13;
+$color-green-lighter: #D3F7A8&#13;
+&#13;
+$color-yellow: #F9D406&#13;
+$color-yellow-light: #E1C767&#13;
+$color-yellow-lighter: #CCB361&#13;
+&#13;
+$color-orange: #E7531A&#13;
+$color-orange-light: #FC9234&#13;
+$color-orange-lighter: #DE982E&#13;
+&#13;
+$color-red: #A00F19&#13;
+$color-red-light: #B53640&#13;
+$color-red-lighter: #CC666E&#13;
+&#13;
+$color-pink: #F95070&#13;
+$color-pink-light: #FA8DA2&#13;
+$color-pink-lighter: #FECAD6&#13;
+&#13;
+$color-shamrock: #91941C&#13;
+$color-shamrock-light: #CFD278&#13;
+$color-shamrock-lighter: #D3F7A8</css><device>concourse</device><name>Star Wars</name><sys_class_name>sys_ui_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-16 19:48:58</sys_created_on><sys_id>fe11cd8fdbde0414ff42d540cf961916</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Star Wars</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_theme_fe11cd8fdbde0414ff42d540cf961916</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-16 19:48:58</sys_updated_on></sys_ui_theme></record_update>]]></payload>
+<payload_hash>1317495320</payload_hash>
+<remote_update_set display_value="Star Wars User Themes">7b87f39d2f12301099ab235df699b6da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:12</sys_created_on>
+<sys_id>7787f39d2f12301099ab235df699b6db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17904c27c5d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:12</sys_updated_on>
+<table/>
+<target_name>Star Wars</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>7ec181c37c12441418dc0a5a8737239e</update_guid>
+<update_guid_history>7ec181c37c12441418dc0a5a8737239e:1317495320</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_theme_f2d995d7db528414ff42d540cf96199c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_theme"><sys_ui_theme action="INSERT_OR_UPDATE"><active>true</active><base_theme display_value="Cobalt">6f3c9ae153002300dda1ddeeff7b124a</base_theme><css># Theme Accents&#13;
+$color-text: #201828&#13;
+&#13;
+$color-accent: #70243A&#13;
+$color-accent-light: #9C415F&#13;
+$color-accent-lighter: #CC0043&#13;
+$color-accent-lightest: #CC7087&#13;
+&#13;
+# Header Colors&#13;
+$search-text-color: #E7F4FC&#13;
+$navpage-header-search-bg-color: #001B3A&#13;
+$navpage-header-bg: #001226&#13;
+$navpage-header-color: #01A3E3&#13;
+$navpage-header-button-color: #B2CFE0&#13;
+$navpage-header-divider-color: #23C4ED&#13;
+&#13;
+# Left nav and navigation toolbar background color&#13;
+$nav-highlight-main: #CC0043&#13;
+$subnav-background-color: #002C5A&#13;
+$navpage-nav-bg: #001226&#13;
+$navpage-nav-bg-sub: #001B3A&#13;
+$navpage-nav-color-sub: #1BC3EB&#13;
+$nav-hr-color: #001B3A&#13;
+&#13;
+# Navigator tabs&#13;
+$nav-highlight-bar-active: #CC0043&#13;
+$nav-highlight-bar-inactive: #990032&#13;
+$navpage-nav-selected-bg: #CC0043&#13;
+$navpage-nav-selected-color: #001B3A&#13;
+$navpage-nav-unselected-color: #990032&#13;
+&#13;
+# Navigator Application text&#13;
+$connect-latest-message: #23C4ED&#13;
+$navpage-nav-app-text: #01A3E3&#13;
+$navpage-nav-app-text-hover: #E7F4FC&#13;
+&#13;
+$navpage-nav-border: #CC0043&#13;
+$navpage-button-color: #B2CFE0&#13;
+$navpage-button-color-hover: #407FAE&#13;
+&#13;
+$color-primary: #23C4ED&#13;
+$color-positive: #449C2B&#13;
+$color-info: #508DD7&#13;
+$color-warning: #DE982E&#13;
+$color-negative: #A00F19&#13;
+&#13;
+$color-positive-light: #CFD278&#13;
+$color-positive-dark: #42E29A&#13;
+$color-info-light: #ABD6EE&#13;
+$color-info-dark: #0C5AA9&#13;
+$color-warning-light: #CCB361&#13;
+$color-warning-dark: #756013&#13;
+$color-negative-light: #BC787E&#13;
+$color-negative-dark: #710F17&#13;
+&#13;
+$color-primary-text: #E7F4FC;&#13;
+$color-positive-text: ${$color-positive-dark}&#13;
+$color-info-text: ${$color-info-dark}&#13;
+$color-warning-text: ${$color-warning-dark}&#13;
+$color-negative-text: #E7F4FC&#13;
+&#13;
+$btn-positive-bg-color: ${$color-positive-light}&#13;
+$btn-positive-bg-color-hover: ${$color-positive}&#13;
+$btn-positive-text: ${$color-positive-dark}&#13;
+$btn-positive-text-hover: ${$color-positive-dark}&#13;
+$btn-info-bg-color: ${$color-info-light}&#13;
+$btn-info-bg-color-hover: ${$color-info}&#13;
+$btn-info-text: ${$color-info-dark}&#13;
+$btn-info-text-hover: ${$color-info-dark}&#13;
+$btn-negative-bg-color: ${$color-negative-light}&#13;
+$btn-negative-bg-color-hover: ${$color-negative}&#13;
+$btn-negative-text: ${$color-negative-dark}&#13;
+$btn-negative-text-hover: ${$color-negative-dark}&#13;
+$btn-warning-bg-color: ${$color-warning-light}&#13;
+$btn-warning-bg-color-hover: ${$color-warning}&#13;
+$btn-warning-text: ${$color-warning-dark}&#13;
+$btn-warning-text-hover: ${$color-warning-dark}&#13;
+&#13;
+$state-success-text: ${g_darken($color-positive, 25%)}&#13;
+$state-success-bg: ${g_lighten($color-positive-light, 8%)}&#13;
+$state-success-border: ${g_lighten($color-positive, 30%)}&#13;
+$state-info-text: ${g_darken($color-info, 25%)}&#13;
+$state-info-bg: ${g_lighten($color-info-light, 8%)}&#13;
+$state-info-border: ${g_lighten($color-info, 30%)}&#13;
+$state-warning-text: ${g_darken($color-warning, 25%)}&#13;
+$state-warning-bg: ${g_lighten($color-warning-light, 10%)}&#13;
+$state-warning-border: ${g_lighten($color-warning, 30%)}&#13;
+$state-danger-text: ${g_darken($color-negative, 25%)}&#13;
+$state-danger-bg: ${g_lighten($color-negative-light, 8%)}&#13;
+$state-danger-border: ${g_lighten($color-negative, 30%)}&#13;
+&#13;
+$color-darkest: #201828&#13;
+$color-darker: #B1C1D8&#13;
+$color-dark: #414141&#13;
+$color-light: #BFCFD9&#13;
+$color-lighter: #AFC3DA&#13;
+$color-lightest: #E7F4FC&#13;
+&#13;
+$color-black: #201828&#13;
+$color-gray: #B1C1D8&#13;
+$color-white: #E7F4FC&#13;
+&#13;
+$color-purple: #9B4C8F&#13;
+$color-purple-light: #B56CAA&#13;
+$color-purple-lighter: #CE90C5&#13;
+&#13;
+$color-blue: #0C5AA9&#13;
+$color-blue-light: #508DD7&#13;
+$color-blue-lighter: #ABD6EE&#13;
+&#13;
+$color-aqua: #2D8BCE&#13;
+$color-aqua-light: #459DD8&#13;
+$color-aqua-lighter: #60B0E5&#13;
+&#13;
+$color-cyan: #27B598&#13;
+$color-cyan-light: #42E29A&#13;
+$color-cyan-lighter: #42E29A&#13;
+&#13;
+$color-green-dark: #1E5321&#13;
+$color-green: #459C2C&#13;
+$color-green-light: #6AA95F&#13;
+$color-green-lighter: #D3F7A8&#13;
+&#13;
+$color-yellow: #F9D406&#13;
+$color-yellow-light: #E1C767&#13;
+$color-yellow-lighter: #CCB361&#13;
+&#13;
+$color-orange: #E7531A&#13;
+$color-orange-light: #FC9234&#13;
+$color-orange-lighter: #DE982E&#13;
+&#13;
+$color-red: #A00F19&#13;
+$color-red-light: #B53640&#13;
+$color-red-lighter: #CC666E&#13;
+&#13;
+$color-pink: #F95070&#13;
+$color-pink-light: #FA8DA2&#13;
+$color-pink-lighter: #FECAD6&#13;
+&#13;
+$color-shamrock: #91941C&#13;
+$color-shamrock-light: #CFD278&#13;
+$color-shamrock-lighter: #D3F7A8&#13;
+&#13;
+list.row.even.background.color: #E7F8FE&#13;
+list.row.even.text.color: #001226&#13;
+list.row.odd.background.color: #FCFEFF&#13;
+list.row.odd.text.color: #000F1D</css><device>concourse</device><name>Star Wars (Skywalker)</name><sys_class_name>sys_ui_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-17 16:13:14</sys_created_on><sys_id>f2d995d7db528414ff42d540cf96199c</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Star Wars (Skywalker)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_theme_f2d995d7db528414ff42d540cf96199c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-17 18:39:09</sys_updated_on></sys_ui_theme></record_update>]]></payload>
+<payload_hash>-1804353707</payload_hash>
+<remote_update_set display_value="Star Wars User Themes">7b87f39d2f12301099ab235df699b6da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:12</sys_created_on>
+<sys_id>b387f39d2f12301099ab235df699b6db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17904c27c9b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:12</sys_updated_on>
+<table/>
+<target_name>Star Wars (Skywalker)</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>756bf1d738168414be97ccf1db8ea063</update_guid>
+<update_guid_history>756bf1d738168414be97ccf1db8ea063:-1804353707,b15a7d138b168414874ec3da4549eb4b:1773753878,5c48bd17441684146405e526a018e774:-106908343,fca5b1dff4d28414e242d698af069415:50500775,7d44f1df3ed28414c4936de09ba6f6d0:1540113218,38f3b51371168414f001823dff6405cb:-1999693572,b0b2359fd6d28414de7b82fc8239ecc5:-540508241,ab027dd3649284144895b3d7d0f6611c:-136105429,a71a1dd7ad52841418283fe199b68d0e:1764523434,a00addd371928414bd9c7fb221dca367:1029627276</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_theme_b7e14907db124414ff42d540cf96197c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_theme"><sys_ui_theme action="INSERT_OR_UPDATE"><active>true</active><base_theme display_value="Cobalt">6f3c9ae153002300dda1ddeeff7b124a</base_theme><css># Theme Accents&#13;
+$color-text: #2A211C&#13;
+&#13;
+$color-accent: #4C596E&#13;
+$color-accent-light: #6A8FB7&#13;
+$color-accent-lighter: #37A8ED&#13;
+$color-accent-lightest: #BEC8DB&#13;
+&#13;
+# Header Colors&#13;
+$search-text-color: #FCFEFF&#13;
+$navpage-header-search-bg-color: #3F3335&#13;
+$navpage-header-bg: #2A211C&#13;
+$navpage-header-color: #BDAE9D&#13;
+$navpage-header-button-color: #FCFEFF&#13;
+$navpage-header-divider-color: #0080FF&#13;
+&#13;
+# Left nav and navigation toolbar background color&#13;
+$nav-highlight-main: #37A8ED&#13;
+$subnav-background-color: #AC8470&#13;
+$navpage-nav-bg: #2A211C&#13;
+$navpage-nav-bg-sub: #83675A&#13;
+$navpage-nav-color-sub: #E5C138&#13;
+$nav-hr-color: #BDAE9D&#13;
+&#13;
+# Navigator tabs&#13;
+$nav-highlight-bar-active: #37A8ED &#13;
+$nav-highlight-bar-inactive: #0080FF&#13;
+$navpage-nav-selected-bg: #83675A&#13;
+$navpage-nav-selected-color: #2A211C&#13;
+$navpage-nav-unselected-color: #37A8ED&#13;
+&#13;
+# Navigator Application text&#13;
+$connect-latest-message: #E5C138 &#13;
+$navpage-nav-app-text: #EDD400&#13;
+$navpage-nav-app-text-hover: #132248&#13;
+&#13;
+$navpage-nav-border: #BDAE9D&#13;
+$navpage-button-color: #BDAE9D &#13;
+$navpage-button-color-hover: #83675A&#13;
+&#13;
+$color-primary: #113C90&#13;
+$color-positive: #449C2B&#13;
+$color-info: #508DD7&#13;
+$color-warning: #DE982E&#13;
+$color-negative: #A00F19&#13;
+&#13;
+$color-positive-light: #CFD278&#13;
+$color-positive-dark: #449C2B&#13;
+$color-info-light: #ABD6EE&#13;
+$color-info-dark: #0C5AA9&#13;
+$color-warning-light: #CCB361&#13;
+$color-warning-dark: #756013&#13;
+$color-negative-light: #BC787E&#13;
+$color-negative-dark: #710F17&#13;
+&#13;
+$color-primary-text: #FCFEFF;&#13;
+$color-positive-text: ${$color-positive-dark}&#13;
+$color-info-text: ${$color-info-dark}&#13;
+$color-warning-text: ${$color-warning-dark}&#13;
+$color-negative-text: #FCFEFF&#13;
+&#13;
+$btn-positive-bg-color: ${$color-positive-light}&#13;
+$btn-positive-bg-color-hover: ${$color-positive}&#13;
+$btn-positive-text: ${$color-positive-dark}&#13;
+$btn-positive-text-hover: ${$color-positive-dark}&#13;
+$btn-info-bg-color: ${$color-info-light}&#13;
+$btn-info-bg-color-hover: ${$color-info}&#13;
+$btn-info-text: ${$color-info-dark}&#13;
+$btn-info-text-hover: ${$color-info-dark}&#13;
+$btn-negative-bg-color: ${$color-negative-light}&#13;
+$btn-negative-bg-color-hover: ${$color-negative}&#13;
+$btn-negative-text: ${$color-negative-dark}&#13;
+$btn-negative-text-hover: ${$color-negative-dark}&#13;
+$btn-warning-bg-color: ${$color-warning-light}&#13;
+$btn-warning-bg-color-hover: ${$color-warning}&#13;
+$btn-warning-text: ${$color-warning-dark}&#13;
+$btn-warning-text-hover: ${$color-warning-dark}&#13;
+&#13;
+$state-success-text: ${g_darken($color-positive, 25%)}&#13;
+$state-success-bg: ${g_lighten($color-positive-light, 8%)}&#13;
+$state-success-border: ${g_lighten($color-positive, 30%)}&#13;
+$state-info-text: ${g_darken($color-info, 25%)}&#13;
+$state-info-bg: ${g_lighten($color-info-light, 8%)}&#13;
+$state-info-border: ${g_lighten($color-info, 30%)}&#13;
+$state-warning-text: ${g_darken($color-warning, 25%)}&#13;
+$state-warning-bg: ${g_lighten($color-warning-light, 10%)}&#13;
+$state-warning-border: ${g_lighten($color-warning, 30%)}&#13;
+$state-danger-text: ${g_darken($color-negative, 25%)}&#13;
+$state-danger-bg: ${g_lighten($color-negative-light, 8%)}&#13;
+$state-danger-border: ${g_lighten($color-negative, 30%)}&#13;
+&#13;
+$color-darkest: #140B0E &#13;
+$color-darker: #3D3D3D&#13;
+$color-dark: #414141&#13;
+$color-light: #A0B0B9&#13;
+$color-lighter: #CCC8C7&#13;
+$color-lightest: #FCFEFF&#13;
+&#13;
+$color-black: #140B0E&#13;
+$color-gray: #74686C&#13;
+$color-white: #FCFEFF&#13;
+&#13;
+$color-purple: #9B4C8F&#13;
+$color-purple-light: #B56CAA&#13;
+$color-purple-lighter: #CE90C5&#13;
+&#13;
+$color-blue: #0C5AA9&#13;
+$color-blue-light: #508DD7&#13;
+$color-blue-lighter: #ABD6EE&#13;
+&#13;
+$color-aqua: #2D8BCE&#13;
+$color-aqua-light: #459DD8&#13;
+$color-aqua-lighter: #60B0E5&#13;
+&#13;
+$color-cyan: #27B598&#13;
+$color-cyan-light: #42E29A&#13;
+$color-cyan-lighter: #42E29A&#13;
+&#13;
+$color-green-dark: #1E5321&#13;
+$color-green: #459C2C&#13;
+$color-green-light: #6AA95F&#13;
+$color-green-lighter: #D3F7A8&#13;
+&#13;
+$color-yellow: #F9D406&#13;
+$color-yellow-light: #E1C767&#13;
+$color-yellow-lighter: #CCB361&#13;
+&#13;
+$color-orange: #E7531A&#13;
+$color-orange-light: #FC9234&#13;
+$color-orange-lighter: #DE982E&#13;
+&#13;
+$color-red: #A00F19&#13;
+$color-red-light: #B53640&#13;
+$color-red-lighter: #CC666E&#13;
+&#13;
+$color-pink: #F95070&#13;
+$color-pink-light: #FA8DA2&#13;
+$color-pink-lighter: #FECAD6&#13;
+&#13;
+$color-shamrock: #91941C&#13;
+$color-shamrock-light: #CFD278&#13;
+$color-shamrock-lighter: #D3F7A8</css><device>concourse</device><name>Star Wars (Bespin)</name><sys_class_name>sys_ui_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-16 20:14:34</sys_created_on><sys_id>b7e14907db124414ff42d540cf96197c</sys_id><sys_mod_count>15</sys_mod_count><sys_name>Star Wars (Bespin)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_theme_b7e14907db124414ff42d540cf96197c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-16 21:26:28</sys_updated_on></sys_ui_theme></record_update>]]></payload>
+<payload_hash>519838479</payload_hash>
+<remote_update_set display_value="Star Wars User Themes">7b87f39d2f12301099ab235df699b6da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-30 11:07:12</sys_created_on>
+<sys_id>ff87f39d2f12301099ab235df699b6da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17904c27c800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-30 11:07:12</sys_updated_on>
+<table/>
+<target_name>Star Wars (Bespin)</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>d71819473b52441409c379737ce8926d</update_guid>
+<update_guid_history>d71819473b52441409c379737ce8926d:519838479,ee975947ce524414c0a4bfaa6da1efd4:1642405768,7bf699c7965244141af6c90bc96042c2:-550343997,7bc6d147b95244145ae8904dad33f68e:969365646,4ea6114b5c524414d32b4e0bed6a7da2:1496398284,fa861187815244142cb1f1e174fca6f9:1489071426,a226d9c7e9524414cfbb2c3f05e5e509:-1644398960,57f599c741524414b300d86ca7f647cd:-399822867,3ed55187ab5244142bff575b9b5e8d97:1425605412,13a59d47f4524414b877cfeee030ebf4:-395220614,2e65558784524414b69833a5023dbc9e:388399275,3b0419473a52441411fda95c8efa8c65:654733951,c3919d8bbd1244142fe61178e6c69a3a:166245053,639f4d8363524414705323675add94bb:-778311129,b5e78d8b3612441468b5c316a3c35f32:-1653527696,cea781c362124414a3911d9b53eb5ca1:-2055085908</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
